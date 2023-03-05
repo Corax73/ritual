@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,8 +17,18 @@ use Illuminate\Support\Facades\Route;
 /*Route::get('/', function () {
     return view('welcome');
 });*/
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('home.index');
-}) -> name('dev');
+}) -> name('dev');*/
 
 Auth::routes();
+
+Route::controller(HomeController::class)
+->group(function() {
+    Route::get('/', 'index') -> name('home.index');
+    //Route::get('/news/{id}', 'show') -> name('news.show');
+    Route::post('/', 'store') -> name('home.store');
+    //Route::delete('destroy/{id}', 'destroy') -> name('news.destroy');
+    //Route::get('/news/{id}/edit', 'edit') -> name('news.edit');
+    //Route::patch('/news/{id}', 'update') -> name('news.update');
+});
