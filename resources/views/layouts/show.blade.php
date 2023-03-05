@@ -1,13 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+@include('layouts.head')
+<body>
+<!-- ===== preloader ===== -->
+<div class="preloaders">
+  <div class="preloaders-gif">&nbsp;</div>
+</div>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>Список новостей</title>
-</head>
+@include('layouts.headshow')
 <body>
 <p align="center"><a href="{{ url('/') }}">Home</a></p>
 <div class="container">
@@ -19,13 +17,19 @@
             <h3>{{ $product->description }}</h3>
             @foreach ($images as $image)
             <p><img src="{{ Storage::url($image->img) }}" alt=""></p>
+            @if (Auth::check())
+            <button type="submit" name="download" value="{{ $image->img }}">Скачать</button>
+            @endif
             @endforeach
+            @if (Auth::check())
             <button type="submit" name="action" value="delete" class="btn btn-danger">Удалить</button>
-            <button type="submit" name="action" value="download">Скачать</button>
+            @endif
         </form>
         <a href="{{ route('product.edit', $product -> id) }}">Edit this product</a>
         </div>
         <a href="{{ route('home.index') }}">To the product</a>
 </div>
+@include('layouts.footer')
+@include('layouts.jsscript')
 </body>
 </html>

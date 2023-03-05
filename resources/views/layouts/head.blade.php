@@ -17,29 +17,29 @@
 <link rel="icon" href="/images/favicon.ico">
 
 <!-- ===== Bootstrap ===== -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/bootstrap.min.css">
 
 <!-- ===== Font Icons ===== -->
-<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 
 <!-- ===== Corousel and Lightbox ===== -->
-<link rel="stylesheet" href="css/owl.theme.css">
-<link rel="stylesheet" href="css/owl.carousel.css">
-<link rel="stylesheet" href="css/nivo-lightbox.css">
-<link rel="stylesheet" href="css/themes/default/default.css">
+<link rel="stylesheet" href="/css/owl.theme.css">
+<link rel="stylesheet" href="/css/owl.carousel.css">
+<link rel="stylesheet" href="/css/nivo-lightbox.css">
+<link rel="stylesheet" href="/css/themes/default/default.css">
 
 <!-- ===== Colors ===== -->
-<link rel="stylesheet" href="css/colors/color.css"> 
+<link rel="stylesheet" href="/css/colors/color.css"> 
 
 
 <!-- ===== Preloader ===== -->
-<link rel="stylesheet" href="css/preloader.css">
+<link rel="stylesheet" href="/css/preloader.css">
 
 <!-- ===== style.css ===== -->
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="/css/style.css">
 
 <!-- ===== Responsive CSS ===== -->
-<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="/css/responsive.css">
 
 <!--[===== if lt IE 9]>
 			<script src="js/html5shiv.js"></script>

@@ -9,11 +9,9 @@ if (! function_exists('image_download')) {
      * @param  \App\Models\Product  $product
      */
 
-    function image_download (Product $product) {
-
-        $filenameForDown = $product -> image;
-
-        return Storage::download('/public/' . $filenameForDown);
+    function image_download ($img) {      
+        
+        return Storage::download('/public/' . $img);
 
     }
 }

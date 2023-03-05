@@ -63,24 +63,22 @@ class HomeController extends Controller
 
 	public function destroy(Request $request, $id)
     {
-        switch ($request -> input('action')) {
-            case 'delete':
-
+        if ($request -> input('action') == 'delete') {
+            
                 $product = Product::find($id);
                 
                 image_and_mini_destroy($product);
 
                 $product -> delete();
+            }
 
-                break;
-
-            /*case 'download':
+            if ($request -> input('download')) {
                 
                 $product = Product::find($id);
 
-                return image_download($product);
+                $img = $request -> input('download');
 
-                break;*/
+                return image_download($img);
         }
 
         return redirect('/');

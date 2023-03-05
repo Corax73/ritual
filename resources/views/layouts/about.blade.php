@@ -29,10 +29,10 @@
 							<div class="product_content">
 								
 								@if($product -> new_price != NULL)
-								   <div style="text-decoration: line-through">${{$product->price}}</div>
-								   <div class="product_price">${{$product->new_price}}</div>
+								   <div style="text-decoration: line-through">Старая цена: ${{$product->price}}</div>
+								   <div class="product_price">Новая цена: ${{$product->new_price}}</div>
 								   @else
-								   <div class="product_price">${{$product->price}}</div>
+								   <div class="product_price">Цена: ${{$product->price}}</div>
 								@endif
 							</div>
 						</div>
