@@ -26,9 +26,9 @@ Auth::routes();
 Route::controller(HomeController::class)
 ->group(function() {
     Route::get('/', 'index') -> name('home.index');
-    //Route::get('/news/{id}', 'show') -> name('news.show');
+    Route::get('/product/{id}', 'show') -> name('product.show');
     Route::post('/', 'store') -> name('home.store');
-    //Route::delete('destroy/{id}', 'destroy') -> name('news.destroy');
-    //Route::get('/news/{id}/edit', 'edit') -> name('news.edit');
+    Route::delete('destroy/{id}', 'destroy') -> name('product.destroy');
+    Route::get('/product/{id}/edit', 'edit') -> name('product.edit');
     //Route::patch('/news/{id}', 'update') -> name('news.update');
 });

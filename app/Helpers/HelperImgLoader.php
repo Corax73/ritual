@@ -15,7 +15,7 @@ if (! function_exists('image_load_and_mini')) {
     function image_load_and_mini ($validatedData, $faker) {
         
         $filenameProduct = [];
-        //$faker = new Faker;
+        
         foreach ($validatedData['image'] as $imgProduct) {
             $filename = $imgProduct -> getClientOriginalName();
             $uniquePrefix = $faker -> swiftBicNumber;

@@ -24,6 +24,7 @@
 						}
 						@endphp
 						<div class="product">
+						    <a href="{{ route('product.show', $product -> id) }}">{{ $product->title }}</a>
 							<div class="product_image"><img src="{{ Storage::url('/mini/' . 'mini'. $image)}}" alt="{{$product->title}}"></div>
 							<div class="product_content">
 								
