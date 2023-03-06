@@ -11,7 +11,7 @@
 	</ul>
 	
 	<div class="copyright">
-		 ©2015 All Right Reserved. 
+		 ©2023 Corax73dev. 
 	</div>
 </div>
 </footer>

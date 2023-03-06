@@ -14,14 +14,9 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-/*Route::get('/', function () {
-    return view('welcome');
-});*/
-/*Route::get('/', function () {
-    return view('home.index');
-}) -> name('dev');*/
 
-Auth::routes();
+//Auth::routes();
+Auth::routes(['register' => false]);
 
 Route::controller(HomeController::class)
 ->group(function() {

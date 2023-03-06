@@ -17,7 +17,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Ritual73</a>
+					<a class="navbar-brand" href="/">Ritual73</a>
 					
 				</div>
 				
@@ -71,7 +71,7 @@
 		<!-- ===== End Sticky Navigation ===== -->
 		
 	</div>
-    @if (Auth::check())
+    @if (Auth::id() == $var)
 	<div class="container">
     <div class="col-8">
         <h1>Добавить товар</h1>

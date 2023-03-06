@@ -23,9 +23,9 @@
             @endforeach
             @if (Auth::check())
             <button type="submit" name="action" value="delete" class="btn btn-danger">Удалить</button>
+            <a href="{{ route('product.edit', $product -> id) }}">Edit this product</a>
             @endif
         </form>
-        <a href="{{ route('product.edit', $product -> id) }}">Edit this product</a>
         </div>
         <a href="{{ route('home.index') }}">To the product</a>
 </div>

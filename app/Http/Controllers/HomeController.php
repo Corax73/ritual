@@ -12,9 +12,12 @@ class HomeController extends Controller
     public function index(){
         
 		$products = Product::all() -> sortByDesc('created_at');
-		
+        $products = $products->chunk(2);
+        $count = $products -> count();
+
 		return view('home.index', [
-		'products' => $products
+            'count' => $count,
+            'products' => $products
 		]);
 	}
 

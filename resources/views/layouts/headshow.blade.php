@@ -17,7 +17,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Ritual73</a>
+					<a class="navbar-brand" href="/">Ritual73</a>
 					
 				</div>
 				
