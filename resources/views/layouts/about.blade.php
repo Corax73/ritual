@@ -2,7 +2,6 @@
 <div class="container">
     
     <h2>About Product</h2>
-	<h1>1111</h1>
     <div class="underline">
     </div>
 
@@ -31,8 +30,8 @@
 							<div class="product_content">
 								
 								@if($product -> new_price != NULL)
-								   <div style="text-decoration: line-through">Старая цена: ${{$product->price}}</div>
-								   <div class="product_price">Новая цена: ${{$product->new_price}}</div>
+								   <div style="text-decoration: line-through">Старая цена: {{$product->price}} руб.</div>
+								   <div class="product_price">Новая цена: {{$product->new_price}} руб.</div>
 								   @else
 								   <div class="product_price">Цена: {{$product->price}} руб.</div>
 								@endif

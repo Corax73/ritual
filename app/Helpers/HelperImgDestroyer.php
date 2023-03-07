@@ -11,10 +11,10 @@ if (! function_exists('image_and_mini_destroy')) {
 
     function image_and_mini_destroy (Product $product) {
 
-        $images = $product->images;
+        $images = $product -> images;
 
         foreach ($images as $image) {
-            $filenameForDel = $image->img;
+            $filenameForDel = $image -> img;
             Storage::delete('/public/' . $filenameForDel);
             Storage::delete('/public/mini/' . 'mini' . $filenameForDel);
         }

@@ -11,7 +11,7 @@ class HomeController extends Controller
 {
     public function index(){
         
-		$products = Product::all() -> sortByDesc('created_at');
+		$products = Product::all() -> sortByDesc('updated_at');
         $products = $products->chunk(2);
         $count = $products -> count();
 
@@ -26,6 +26,7 @@ class HomeController extends Controller
         $validatedData = $request -> validate( [
             'title' => 'required|unique:products|max:255',
 			'price' => 'required',
+            'new_price' => 'nullable|lt:price',
             'description' => 'required',
             'image' => 'required'
         ], 
@@ -57,6 +58,55 @@ class HomeController extends Controller
     {
         $product = Product::find($request -> id);
 		$images = $product->images;
+        
+        return view('layouts.show', [
+			'product' => $product,
+			'images' => $images
+	]);
+    }
+
+    public function edit(Request $request)
+    {
+        $product = Product::find($request -> id);
+        
+        return view('layouts.edit', ['product' => $product]);
+    }
+    
+    public function update(Request $request)
+    {
+        $product = Product::find($request -> id);
+
+        $images = $product->images;
+
+        if ($request -> title) {
+
+            $validatedData = $request -> validate( [
+                'title' => 'required|max:255',
+                'price' => 'required',
+                'new_price' => 'nullable|lt:price',
+                'description' => 'required'
+            ], 
+            [
+                'title.required' => 'Title is required',
+                'price.required' => 'Description is required',
+                'description.required' => 'Description is required'
+            ]
+        );
+
+        } else {
+            
+            $validatedData = $request -> validate( [
+                'description' => 'required',
+                'price' => 'required',
+                'new_price' => 'nullable|lt:price',
+            ], 
+            [
+                'description.required' => 'Description is required',
+                'price.required' => 'Description is required'
+            ]
+        );}
+
+        $product -> update($validatedData);
         
         return view('layouts.show', [
 			'product' => $product,

@@ -14,9 +14,11 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-
-//Auth::routes();
-Auth::routes(['register' => false]);
+Auth::routes(
+    [
+        'register' => false,
+        'reset' => false
+    ]);
 
 Route::controller(HomeController::class)
 ->group(function() {
@@ -25,5 +27,5 @@ Route::controller(HomeController::class)
     Route::post('/', 'store') -> name('home.store');
     Route::delete('destroy/{id}', 'destroy') -> name('product.destroy');
     Route::get('/product/{id}/edit', 'edit') -> name('product.edit');
-    //Route::patch('/news/{id}', 'update') -> name('news.update');
+    Route::patch('/product/{id}', 'update') -> name('product.update');
 });

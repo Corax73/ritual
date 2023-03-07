@@ -92,6 +92,13 @@
                 @endif
             </div>
             <div class="form-group">
+                <label for="name">Новая цена</label>
+                <input type="number" class="form-control" id="new_price" name="new_price" >
+                @if ($errors->has('new_price'))
+                <span class="text-danger">{{ $errors->first('new_price') }}</span>
+                @endif
+            </div>
+            <div class="form-group">
                 <label for="body">Описание</label>
                 <textarea class="form-control" id="description" rows="3" name="description"></textarea>
                 @if ($errors->has('description'))
