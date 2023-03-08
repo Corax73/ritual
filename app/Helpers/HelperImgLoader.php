@@ -23,6 +23,11 @@ if (! function_exists('image_load_and_mini')) {
             $filename = $uniqueFilename;
             
             $imgProduct -> move(Storage::path('/public'), $filename);
+            $imgProduct = Image::make(Storage::path('/public/') . $filename);
+            $watermark = Image::make(Storage::path('/watermark/watermark.jpg'));
+            $watermark -> opacity(30);
+            $imgProduct -> insert($watermark, 'center');
+            $imgProduct->save(Storage::path('/public/') . $filename);
             
             $resizeImg = Image::make(Storage::path('/public/') . $filename);
             $resizeImg -> fit(300, 300, function($img) {
@@ -30,7 +35,8 @@ if (! function_exists('image_load_and_mini')) {
                 $img -> upsize();
             });
             
-            $resizeImg->save(Storage::path('/public/mini/') . 'mini' . $filename);
+            $resizeImg -> insert($watermark, 'center');
+            $resizeImg -> save(Storage::path('/public/mini/') . 'mini' . $filename);
 
             $filenameProduct[] = $filename;
             
