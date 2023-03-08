@@ -83,7 +83,7 @@
 				</h1>
 				<div class="underline"></div>
 				<h1>
-                    Responsive HTML5 Template
+				<a href="/">Ритуальные услуги и товары в р. п. Сурское</a>
 				</h1>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->

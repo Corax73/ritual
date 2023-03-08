@@ -30,7 +30,7 @@
 						<li><a href="#section-pricing">Цены</a></li>
 						<li><a href="#section-portfolio">Наши работы</a></li>
 						<li><a href="#section-testimonial">Отзывы</a></li>
-						<li><a href="#section-contact">Обратная связь</a></li>
+						<li><a href="#section-contact">Контакты</a></li>
 					</ul>
 				</div>
 				
@@ -129,7 +129,7 @@
 				</h1>
 				<div class="underline"></div>
 				<h1>
-                    Responsive HTML5 Template
+                <a href="/">Ритуальные услуги и товары в р. п. Сурское</a>
 				</h1>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->

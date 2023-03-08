@@ -1,7 +1,7 @@
 <section id="section-portfolio" class="section-portfolio bgc-one">
 <div class="container">
 	
-	<h2>MyPortfolio</h2>
+	<h2>Наши работы</h2>
 	<div class="underline">
 	</div>
 	

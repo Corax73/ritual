@@ -4,42 +4,39 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			
-			<h2>Contact</h2>
+			<h2>Контакты</h2>
 			<div class="underline"></div>
-			<div class="sub-sub">
-			    Lorem ipsum dolor sit amet, consectetur adipisicing elitRepellat, ea laudantium.
-			</div>
-			
-            <!-- ===== Form ===== -->
-            <form class="contact-form" id="contact" role="form">
-
-                <!-- ===== Succes Send Email ===== -->
-                <h6 class="success">
-                <span class="olored-text icon_check"></span> Your message successfully. </h6>
-
-                <!-- ===== Error Send Email ===== -->
-                <h6 class="error">
-                <span class="colored-text icon_error-circle_alt"></span> your message sent pending. </h6>
-
-                <div class="field-wrapper col-md-6">
-                    <input class="form-control input-box" id="contact-form-name" type="text" name="contact-form-name" placeholder="Your Name">
-                </div>
-
-                <div class="field-wrapper col-md-6">
-                    <input class="form-control input-box" id="contact-form-email" type="email" name="contact-form-email" placeholder="Email">
-                </div>
-
-                <div class="field-wrapper col-md-12">
-                    <input class="form-control input-box" id="contact-form-subject" type="text" name="contact-form-subject" placeholder="Subject">
-                </div>
-
-                <div class="field-wrapper col-md-12">
-                    <textarea class="form-control textarea-box" id="contact-form-message" rows="7" name="contact-form-message" placeholder="Your Message"></textarea>
-                </div>
-
-                <button class="btn standard-button" type="submit" id="contact-form-submit" name="submit" data-style="expand-left">Send Message</button>
-            </form>
-            <!-- ===== End Form ===== -->
+			<div class="map">	
+	<div class="wrp">
+		<div class="map-box">
+			<h2>Наши контакты</h2>
+			<p>Ульяновская область, рабочий посёлок Сурское, улица Ленина, 58</p>
+			<p><a href="tel:+7 (999) 999-99-99">+7 (999) 999-99-99</a></p>
+			<p><a href="mailto:info@site.com">abc@abc.com</a></p>
+		</div>
+	</div>
+	<div id="map"></div>
+</div>
+ 
+<script src="//api-maps.yandex.ru/2.0/?load=package.full&lang=ru-RU"></script>
+<script>
+ymaps.ready(init); 
+function init(){
+	var myMap = new ymaps.Map("map",{center: [54.479884, 46.722447],zoom: 13});
+	
+	// Элементы управления картой
+	myMap.controls.add("zoomControl").add("typeSelector").add("mapTools");
+	
+	var myPlacemark = new ymaps.Placemark([54.479884, 46.722447], {
+		iconCaption: 'подсказка'
+	}, {
+		preset: 'islands#pinkDotIcon'
+	});
+	myMap.geoObjects.add(myPlacemark); 
+		myMap.geoObjects.add(myPlacemark);
+		myMap.setCenter(coord);	
+}
+</script>
 			
 		</div>
 	</div>

@@ -1,7 +1,7 @@
 <section id="section-pricing" class="section-pricing bgc-two">
 <div class="container">
 	
-	<h2>Pricing Table</h2>
+	<h2>Цены</h2>
 	<div class="underline">
 	</div>
 	

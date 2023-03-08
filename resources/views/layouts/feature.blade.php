@@ -2,7 +2,7 @@
 
 <div class="container">
 	
-	<h2>Features</h2>
+	<h2>Наши услуги</h2>
 	
 	<div class="underline">
 	</div>

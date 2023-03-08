@@ -1,7 +1,8 @@
 <section class="section-about bgc-one" id="section-about">
 <div class="container">
     
-    <h2>About Product</h2>
+    <h2>Товары</h2>
+	<h6>*цены при покупке могут отличаться</h6>
     <div class="underline">
     </div>
 
@@ -25,7 +26,7 @@
 						@endphp
 						<div class="col-md-4">
 						<div class="product">
-						    <a href="{{ route('product.show', $product -> id) }}">{{ $product->title }}</a>
+						    <p><a href="{{ route('product.show', $product -> id) }}">{{ $product->title }}</a></p>
 							<div class="product_image"><img src="{{ Storage::url('/mini/' . 'mini'. $image)}}" alt="{{$product->title}}"></div>
 							<div class="product_content">
 								

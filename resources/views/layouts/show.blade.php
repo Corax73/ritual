@@ -21,6 +21,7 @@
 								   @else
 								   <div class="product_price">Цена: {{$product->price}} руб.</div>
 								@endif</h3>
+                <h6>*цены при покупке могут отличаться</h6>
             @foreach ($images as $image)
             <p><img src="{{ Storage::url($image->img) }}" alt=""></p>
             @if (Auth::check())
@@ -33,7 +34,7 @@
             @endif
         </form>
         </div>
-        <a href="{{ route('home.index') }}">To the product</a>
+        <a href="{{ route('home.index') }}">На главную</a>
 </div>
 @include('layouts.footer')
 @include('layouts.jsscript')
