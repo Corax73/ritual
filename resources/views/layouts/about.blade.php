@@ -1,6 +1,5 @@
 <section class="section-about bgc-one" id="section-about">
 <div class="container">
-    
     <h2>Товары</h2>
 	<h6>*цены при покупке могут отличаться</h6>
     <div class="underline">

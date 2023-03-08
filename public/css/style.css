@@ -199,7 +199,7 @@ h6 {
 }
 .navbar-brand {
 	font-size: 48px;
-	color: #F9BF3B !important;
+	color: #0c76c2 !important;
 	font-weight: bold;
 }
 
@@ -280,7 +280,7 @@ h6 {
    Header              
 -----------------------------------------*/
 header {
-	background: url(../images/bg.jpg) no-repeat center top fixed;
+	background: url(../images/fonles1.jpg) no-repeat center top fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 }

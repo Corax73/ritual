@@ -2,102 +2,102 @@
 
 
 
-Color Code : #F9BF3B
+Color Code : #0c76c2
 
 ----------------------------------------- */
 .strong {
-  color: #F9BF3B;
+  color: #0c76c2;
 }
 strong {
-  color: #F9BF3B;
+  color: #0c76c2;
 }
 .underline {
-  background: #F9BF3B; }
+  background: #0c76c2; }
 
-.colo#F9BF3B-text {
-  color: #F9BF3B !important; }
+.colo#0c76c2-text {
+  color: #0c76c2 !important; }
 
 .color-background {
-  background: #F9BF3B; }
+  background: #0c76c2; }
 
 a {
-  color: #F9BF3B; }
+  color: #0c76c2; }
 
 .navbar-toggle {
   border: none !important;
-  background-color: #F9BF3B !important; }
+  background-color: #0c76c2 !important; }
 
 .navbar-toggle:hover {
-  background-color: #F9BF3B !important; }
+  background-color: #0c76c2 !important; }
 
 .non-sticky .navbar-nav > li > a:hover {
-  color: #F9BF3B; }
+  color: #0c76c2; }
 
 .standard-button {
-  border: 2px solid #F9BF3B !important;
-  background-color: #F9BF3B;
+  border: 2px solid #0c76c2 !important;
+  background-color: #0c76c2;
 }
 
 .standard-button:hover {
-  background:#F9BF3B;
+  background:#0c76c2;
   color: #323232;
 }
 h2 {
-  color: #F9BF3B !important;
+  color: #0c76c2 !important;
 }
 .package .header-dark {
-  background-color: #F9BF3B;
+  background-color: #0c76c2;
 }
 .package-center .header {
-  background-color: #F9BF3B;
+  background-color: #0c76c2;
 }
 .package-features .bottom-row .standard-button {
-  background-color: #F9BF3B;
+  background-color: #0c76c2;
 }
 .package-features .bottom-row .standard-button:hover {
   background-color: #fff;
-    border-color: #F9BF3B !important;
+    border-color: #0c76c2 !important;
 }
 .package-features .bottom-row .secondary-button {
   margin: 0;
   padding: 5px 15px;
   vertical-align: middle;
-    background-color: #F9BF3B;
+    background-color: #0c76c2;
     border: 1px solid transparent;
 }
 .package-features .bottom-row .secondary-button:hover {
     background-color: #fff;
-    border-color: #F9BF3B;
+    border-color: #0c76c2;
 }
 .secondary-button:hover {
    }
 
 .sticky-navigation .main-navigation .current a {
-  color: #F9BF3B !important;
+  color: #0c76c2 !important;
   border-color: transparent; !important; }
 
 .sticky-navigation .navbar-nav > li > a:hover {
-  color: #F9BF3B;
+  color: #0c76c2;
   border-color: transparent; }
 
 .feature-list li .icon-custom {
    }
 
 .feature .icon {
-  color: #F9BF3B; }
+  color: #0c76c2; }
 .feature .icon i:hover{
-	border: 2px solid #F9BF3B;
+	border: 2px solid #0c76c2;
 }
 .input-box:active,
 .textarea-box:active,
 .input-box:focus,
 .textarea-box:focus {
-  border: 10px solid #F9BF3B !important; }
+  border: 10px solid #0c76c2 !important; }
 
 .portfolio .owl-theme .owl-controls .owl-page span {
-  background: #F9BF3B; }
+  background: #0c76c2; }
 
 .social-icons li a:hover {
-  background: #F9BF3B; }
+  background: rgb(235, 231, 221); }
 
 /*# sourceMappingURL=alizarin.css.map */

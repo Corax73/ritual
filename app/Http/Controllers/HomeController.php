@@ -12,7 +12,7 @@ class HomeController extends Controller
     public function index(){
         
 		$products = Product::all() -> sortByDesc('updated_at');
-        $products = $products->chunk(2);
+        $products = $products -> chunk(2);
         $count = $products -> count();
 
 		return view('home.index', [

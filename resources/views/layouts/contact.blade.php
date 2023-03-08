@@ -9,7 +9,7 @@
 			<div class="map">	
 	<div class="wrp">
 		<div class="map-box">
-			<h2>Наши контакты</h2>
+			<h4>Наши контакты</h2>
 			<p>Ульяновская область, рабочий посёлок Сурское, улица Ленина, 58</p>
 			<p><a href="tel:+7 (999) 999-99-99">+7 (999) 999-99-99</a></p>
 			<p><a href="mailto:info@site.com">abc@abc.com</a></p>
