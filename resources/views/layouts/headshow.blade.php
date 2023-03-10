@@ -68,6 +68,7 @@
                         @endguest
                     </ul>
                 </div>
+			</div>	
 		<!-- ===== End Sticky Navigation ===== -->
 		
 	</div>
@@ -77,29 +78,16 @@
 		<div class="row">
 			
 			<div class="col-md-10 col-md-offset-1 distance-header">
-				
-				<h1>
-                    <strong>Ritual73</strong>
+			    <h1>
+                <a href="/">Ритуальные услуги и товары в р. п. Сурское</a>
 				</h1>
-				<div class="underline"></div>
-				<h1>
-				<a href="/">Ритуальные услуги и товары в р. п. Сурское</a>
-				</h1>
+                <div class="underline"></div>
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
 
                     </ul>
                 </div>
-				
-				
-				<!-- ===== Call To Action Button ===== -->
-				<div id="call_to_action-5" class="distance-button">
-				
-				<a href="#section-about" class="btn standard-button">()</a>
-				
-				</div>
-				
 			</div>
 
 		</div>

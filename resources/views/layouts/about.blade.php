@@ -25,15 +25,15 @@
 						@endphp
 						<div class="col-md-4">
 						<div class="product">
-						    <p><a href="{{ route('product.show', $product -> id) }}">{{ $product->title }}</a></p>
+						    <p><a href="{{ route('product.show', $product -> id) }}">{{ $product -> title }}</a></p>
 							<div class="product_image"><img src="{{ Storage::url('/mini/' . 'mini'. $image)}}" alt="{{$product->title}}"></div>
 							<div class="product_content">
 								
 								@if($product -> new_price != NULL)
-								   <div style="text-decoration: line-through">Старая цена: {{$product->price}} руб.</div>
-								   <div class="product_price">Новая цена: {{$product->new_price}} руб.</div>
+								   <div style="text-decoration: line-through">Старая цена: {{$product -> price}} руб.</div>
+								   <div class="product_price">Новая цена: {{$product -> new_price}} руб.</div>
 								   @else
-								   <div class="product_price">Цена: {{$product->price}} руб.</div>
+								   <div class="product_price">Цена: {{$product -> price}} руб.</div>
 								@endif
 							</div>
 						</div>

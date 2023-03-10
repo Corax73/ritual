@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="FlatBest - Responsive One Page Fast Loading">
-<meta name="keywords" content="One Page, Bootstrap, Website, Business, Resume, Portfolio, Template, Unlimited Colors">
+<meta name="description" content="Ритуальные услуги и товары в р. п. Сурское">
+<meta name="keywords" content="памятники, надгробия, ограды, ритуальные услуги, мраморная крошка, гранит, плитка, цветник, funeral market, service, похоронный бизнес, funeral business, ритуальные агенты, funeral agents, ульяновск, сурское">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="robots" content="index,follow">
 
 <!-- ===== Site Title===== -->
 <title>Ritual site dev</title>

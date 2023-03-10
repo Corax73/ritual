@@ -18,9 +18,9 @@
 			<div class="col-md-4">
 				<div class="package background-color-white">
 					<div class="header-dark">
-						<h3>Web Personal</h3>
+						<h3>Доставка</h3>
 						<div class="sub-sub">
-							$0 / Year
+							от ...
 						</div> 
 					</div>
 					
@@ -28,28 +28,16 @@
 					<div class="package-features">
 						<ul>
 							<li>
-							    Free Domain .com
+							    В Сурском:
 							</li>
 							<li>
-							    Free Support
-							</li>
-							<li>
-							    Uptuyou
-							</li>
-							<li>
-							    Unlimited
-							</li>
-							<li>
-							    Coffee Free
-							</li>
-							<li>
-							    16 GB free Hosting
+							    По району:
 							</li>
 						</ul>
 						<div class="bottom-row">
 							<div class="column-button">
 								<div id="call_to_action-1">
-									<a href="#" class="btn secondary-button">SIGN UP</a>
+									<a href="#section-contact" class="btn secondary-button">К контактам</a>
 								</div>
 							</div>
 						</div>
@@ -61,9 +49,9 @@
 			<div class="col-md-4">
 				<div class="package-center background-color-white">
 					<div class="header">
-						<h3>Web Group</h3>
+						<h3>Демонтаж</h3>
 						<div class="sub-sub">
-							$160 / Year
+							от...
 						</div>
 					</div>
 					
@@ -71,28 +59,19 @@
 					<div class="package-features">
 						<ul>
 							<li>
-							    Free Domain .com
+							    Ограды:
 							</li>
 							<li>
-							    Free Support
+							    Памятники:
 							</li>
 							<li>
-							    Uptuyou
-							</li>
-							<li>
-							    Unlimited
-							</li>
-							<li>
-							    Coffee Free
-							</li>
-							<li>
-							    16 GB free Hosting
+							    Тумбочки:
 							</li>
 						</ul>
 						<div class="bottom-row">
 							<div class="column-3p">
 								<div id="call_to_action-2">
-									<a href="#" class="btn standard-button">SIGN UP</a>
+								    <a href="#section-contact" class="btn secondary-button">К контактам</a>
 								</div>
 							</div>
 						</div>
@@ -104,38 +83,38 @@
 			<div class="col-md-4">
 				<div class="package background-color-white">
 					<div class="header-dark">
-						<h3>Web businnes</h3>
+						<h3>Монтаж</h3>
 						<div class="sub-sub">
-							$470 / Year
+							от...
 						</div>
 					</div>
 					
 					<!-- ===== Package Details ===== -->
 					<div class="package-features">
 						<ul>
-							<li>
-							    Free Domain .com
+						<li>
+							    Ограды:
 							</li>
 							<li>
-							    Free Support
+							    Памятники:
 							</li>
 							<li>
-							    Uptuyou
+							    Тумбочки:
 							</li>
 							<li>
-							    Unlimited
+							    Столики:
 							</li>
 							<li>
-							    Coffee Free
+							    Цветники:
 							</li>
 							<li>
-							    16 GB free Hosting
+							    Плитка:
 							</li>
 						</ul>
 						<div class="bottom-row">
 							<div class="column-3p">
 								<div id="call_to_action-3">
-									<a href="" class="btn secondary-button">SIGN UP</a>
+								    <a href="#section-contact" class="btn secondary-button">К контактам</a>
 								</div>
 							</div>
 						</div>

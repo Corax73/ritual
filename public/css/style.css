@@ -28,21 +28,24 @@ html {
   }
 
 body {
-	background: #ffffff;
+	background: url(../images/fonles1.jpg) no-repeat center top fixed;
+	-webkit-background-size: cover;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 18px;
-	color: #555;
+	font-size: 28px;
+	color: blue;
 	line-height: 25px;
 	text-align: center;
 	overflow-x: hidden !important;
 	margin: auto !important;
 }
 .bgc-one {
-	background-color: #ffffff;
+	background: url(../images/fonles1.jpg) no-repeat center top fixed;
+	-webkit-background-size: cover;
 }
 .bgc-two {
 	background-color: #f3f3f3;
-	background: url(../images/rec.png);
+	background: url(../images/fonles1.jpg) no-repeat center top fixed;
+	-webkit-background-size: cover;
 	color: #ffffff !important;
 	background-size: cover;
 
@@ -157,7 +160,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Raleway', sans-serif;
-	color: #222;
+	color: #0c76c2;
 	margin-bottom: 0;
 	margin-top: 0;
 }
