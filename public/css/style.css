@@ -26,6 +26,10 @@ html {
 	border: 1px solid rgba(0, 0, 0, 0.125);
 	border-radius: 0.25rem;
   }
+  .product_image:hover {
+	transform: scale(1.1);
+  }
+  
 
 body {
 	background: url(../images/fonles1.jpg) no-repeat center top fixed;
@@ -363,10 +367,10 @@ header {
 
 .sticky-navigation .navbar-nav > li > a {
 	font-family: 'Raleway', sans-serif;
-	font-size: 13px;
+	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #eee;
+	color: #0c76c2;
     border-top: 2px solid transparent;
     margin: 2px;
 }

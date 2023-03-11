@@ -26,7 +26,7 @@
 						<div class="col-md-4">
 						<div class="product">
 						    <p><a href="{{ route('product.show', $product -> id) }}">{{ $product -> title }}</a></p>
-							<div class="product_image"><img src="{{ Storage::url('/mini/' . 'mini'. $image)}}" alt="{{$product->title}}"></div>
+							<div class="product_image"><a href="{{ route('product.show', $product -> id) }}"><img src="{{ Storage::url('/mini/' . 'mini'. $image)}}" alt="{{$product->title}}"></a></div>
 							<div class="product_content">
 								
 								@if($product -> new_price != NULL)
