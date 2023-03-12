@@ -173,12 +173,30 @@ h1 {
 	font-size: 2.813rem;
 	line-height: 3.75rem;
 	font-weight: 500;
+	text-shadow:
+	0 0 7px #fff,
+	0 0 10px #fff,
+	0 0 21px #fff,
+	0 0 42px #0fa,
+	0 0 82px #0fa,
+	0 0 92px #0fa,
+	0 0 102px #0fa,
+	0 0 151px #0fa;
 }
 
 h2 {
     line-height: 3.125rem;
 	font-weight: 500;
 	font-size: 2.188rem;
+	text-shadow:
+	0 0 7px #fff,
+	0 0 10px #fff,
+	0 0 21px #fff,
+	0 0 42px #0fa,
+	0 0 82px #0fa,
+	0 0 92px #0fa,
+	0 0 102px #0fa,
+	0 0 151px #0fa;
 }
 
 h3 {
@@ -191,6 +209,15 @@ h4 {
 	line-height: 2rem;
 	font-weight: 600;
     font-size: 1.25rem;
+	text-shadow:
+0 0 7px #fff,
+0 0 10px #fff,
+0 0 21px #fff,
+0 0 42px #0fa,
+0 0 82px #0fa,
+0 0 92px #0fa,
+0 0 102px #0fa,
+0 0 151px #0fa;
 }
 
 h5 {
@@ -208,6 +235,15 @@ h6 {
 	font-size: 48px;
 	color: #0c76c2 !important;
 	font-weight: bold;
+	text-shadow:
+	0 0 7px #fff,
+	0 0 10px #fff,
+	0 0 21px #fff,
+	0 0 42px #0fa,
+	0 0 82px #0fa,
+	0 0 92px #0fa,
+	0 0 102px #0fa,
+	0 0 151px #0fa;
 }
 
 /*---------------------------------------
@@ -373,6 +409,15 @@ header {
 	color: #0c76c2;
     border-top: 2px solid transparent;
     margin: 2px;
+	text-shadow:
+	0 0 7px #fff,
+	0 0 10px #fff,
+	0 0 21px #fff,
+	0 0 42px #0fa,
+	0 0 82px #0fa,
+	0 0 92px #0fa,
+	0 0 102px #0fa,
+	0 0 151px #0fa;
 }
 
 

@@ -35,7 +35,6 @@ if (! function_exists('image_load_and_mini')) {
                 $img -> upsize();
             });
             
-            $resizeImg -> insert($watermark, 'center');
             $resizeImg -> save(Storage::path('/public/mini/') . 'mini' . $filename);
 
             $filenameProduct[] = $filename;
