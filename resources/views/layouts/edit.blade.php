@@ -10,6 +10,7 @@
 <p align="center"><a href="{{ url('/') }}">Home</a></p>
 <div class="container">
 <div class="col-8">
+    @if (Auth::id() == $var)
         <h1>Изменить товар</h1>
         <form method="post" action="{{ route('product.update', $product -> id) }}" enctype="multipart/form-data">
         @csrf
@@ -44,6 +45,7 @@
             </div>
             <button type="submit" class="btn btn-primary">Обновить</button>
         </form>
+        @endif
     </div>
     <a href="{{ route('home.index') }}">На главную</a>
 </div>

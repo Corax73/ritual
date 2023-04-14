@@ -46,5 +46,14 @@
 			<script src="js/html5shiv.js"></script>
 			<script src="js/respond.min.js"></script>
 <![endif]===== -->
+<script>
+	document.ondragstart = test;
+	document.onselectstart = test;
+	document.oncontextmenu = test;
+	
+	function test() {
+		return false
+		}
+</script>
      
 </head>
